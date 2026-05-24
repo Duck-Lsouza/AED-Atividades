@@ -8,7 +8,7 @@
 
 typedef struct mascote Mascote;
 
-Mascote* mascote_cria(char* nome, Mascote* m);
+Mascote* mascote_cria(char* nome);
 
 void mascote_alimentar(Mascote* m);
 
